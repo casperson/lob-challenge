@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import Client from './Client';
+import Client from '../Client';
 import GovernorSearch from './GovernorSearch'
 
 export default class App extends Component {
@@ -49,7 +49,7 @@ export default class App extends Component {
       <div className="App">
         <div className="App-header">
           <img src="https://s3-us-west-2.amazonaws.com/lob-assets/LobLogoLightSmall.png" className="App-logo" alt="logo" />
-          <h2>Welcome to the Governor Mailing App!</h2>
+          <h2>Welcome to the Governor Letter Mailer!</h2>
         </div>
         <GovernorSearch governor={this.generateLetter}/>
         {urlDiv}

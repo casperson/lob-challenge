@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './GovernorSearch.css';
-import { usStates } from './states.js';
-import { countries } from './countries.js';
+import { usStates } from '../states.js';
+import { countries } from '../countries.js';
 
 export default class App extends Component {
   constructor(props) {
