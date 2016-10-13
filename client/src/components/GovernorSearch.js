@@ -43,8 +43,7 @@ export default class App extends Component {
             }
           });
       }).catch(err => {
-        console.log("smoky");
-        this.setState({civicError: err.json().errors[0].message})
+        console.log(err);
       })
   }
 
@@ -100,7 +99,7 @@ export default class App extends Component {
           </p>
           <p>
             <label className="search__field"><span className="search__label">Message</span>
-              <textarea className="search__textarea" type="text" placeholder="Message" name="message" value={this.state.message} onChange={this.changeInput} />
+              <textarea className="search__textarea" maxLength="200" type="text" placeholder="Message" name="message" value={this.state.message} onChange={this.changeInput} />
             </label>
           </p>
           <p>
