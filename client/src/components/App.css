@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.App-logo {
+  height: 90px;
+}
+
+.App-header {
+  height: 145px;
+  padding: 20px;
+  color: #47B2E8;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.error {
+  color: red;
+}
+
+.download {
+  color: #47B2E8;
+}
